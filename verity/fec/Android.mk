@@ -11,8 +11,8 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := \
     libsparse_host \
     libz \
-    libcrypto_utils \
-    libcrypto \
+    libcrypto_utils_static \
+    libcrypto_static \
     libfec_host \
     libfec_rs_host \
     libext4_utils_host \
